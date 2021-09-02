@@ -15,17 +15,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ARGlasses">
         <activity android:name=".LightActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".QrCodeActivity"></activity>
         <activity android:name=".ScanQrcodeActivity"></activity>
         <activity android:name=".ConnectStateActivity" />
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
